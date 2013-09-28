@@ -24,6 +24,8 @@ class wireshark::install {
     default => fail("Unsupported Kernel: ${::kernel} operatingsystem: ${::operatingsystem}")
   }
 
+  class {'xquartz': }
+  ->
   package {"wireshark-${version}":
     ensure => installed,
     source => $source,

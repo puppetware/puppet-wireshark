@@ -1,5 +1,5 @@
 Puppet Module - Wireshark
-=============================
+=========================
 
 Puppet module to install Wireshark.
 
