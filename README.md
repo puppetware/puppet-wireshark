@@ -10,7 +10,7 @@ Supported Platforms:
 Usage
 -----
 
-Installs Wireshark 1.10.2:
+Installs Wireshark 1.10.6:
 
 ```
 class {'wireshark': }
@@ -26,7 +26,7 @@ class {'wireshark':
 
 Developer Notes
 ---------------
-- When running Wireshark for the first time you will be prompted to located X11. 
+- When running Wireshark for the first time you will be prompted to located X11.
   'Browse' for X11 in ```/Applications/Utilities/``` and select ```XQuartz.app```.
 - Wireshark may require a reboot after the first run to execute correctly.
 
