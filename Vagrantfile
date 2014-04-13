@@ -4,13 +4,12 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "mavericks64"
-  config.vm.box_version = "0"
+  config.vm.box = "skoblenick/mavericks64"
+  config.vm.box_version = "1.0.0"
   config.vm.box_check_update = true
 
   config.vm.provider "vmware_fusion" do |v, override|
     v.gui = false
-    override.vm.box_url = "http://localhost/boxes/mavericks64_vmware.box"
   end
 
   config.vm.provision "shell" do |s|
