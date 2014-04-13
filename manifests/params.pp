@@ -12,6 +12,6 @@
 #
 class wireshark::params {
 
-  $version = '1.10.5'
+  $version = '1.10.6'
 
 }
